@@ -1,0 +1,87 @@
+*{
+   margin:0px;
+   padding:0px; 
+}
+
+body{
+    background-color :mistyrose;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#contenedor{
+  width:1200px;
+  margin:0px auto;
+  border: 1px solid rgb(197, 76, 197);
+}
+
+header{
+    background-color:rgb(177, 127, 164);
+    height:100px;
+    width: 100%;
+    margin:0px;
+    text-align:center;
+    line-height: 100px;
+    text-decoration:dotted:black
+    border-bottom:3px solid rgb(226, 205, 245);
+    font-family::-webkit-validation-bubble-arrow-clipper
+    
+}
+
+nav{
+    background-color:lightseagreen;
+    height:50px;
+    border: 1px solid black;
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    margin:10px;
+    line-height: 30px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float:left;
+    width:70%;
+    background-color:lightyellow;
+    min-height:500px;
+    padding:40px;
+}
+
+aside{
+    float:inline-end;
+    width:90%;
+    background-color:rgb(170, 103, 155);
+    min-height:500px;
+    padding:20px;
+}
+
+footer{
+    background-color:rgb(78, 17, 80);
+    color:white;
+    text-align:center;
+    height:50px;
+    line-height: 50px;
+}
+
+.articulo{
+   color: rgb(112, 89, 112);
+   margin-top:15px;
+   margin-bottom:15px; 
+   border-bottom:3px solid blue;
+}
+
+.articulo h2{
+    font-size:30px;
+}
+
+img{
+  background-image: initial;
+    width: 200px;
+    line-height: normal;
+    
+}
+
